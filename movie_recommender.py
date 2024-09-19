@@ -56,8 +56,8 @@ def main():
 
         if chosen_genre:
             genre_top_df = build_chart(gen_md_df, chosen_genre)
-            the_number_of_movies = st.number_input(label="The number of movies options", min_value=1, max_value=50, value=10)
-            top_movies_per_genre_list = genre_top_df['title'][:the_number_of_movies].tolist()
+            # the_number_of_movies = st.number_input(label="The number of movies options", min_value=1, max_value=50, value=10)
+            top_movies_per_genre_list = genre_top_df['title'][:20].tolist()
             favorite_movie = st.selectbox(label="Select your favorite movie", options=top_movies_per_genre_list)
             if favorite_movie:
                 with st.form("summary_form", clear_on_submit=False):
