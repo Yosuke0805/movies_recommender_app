@@ -52,7 +52,7 @@ def main():
 
 
         genre_list = gen_md_df.genre.unique().tolist()
-        chosen_genre = st.selectbox(label="Select genre", options=genre_list, index=4)
+        chosen_genre = st.selectbox(label="Select genre", options=genre_list, index=3)
 
         if chosen_genre:
             genre_top_df = build_chart(gen_md_df, chosen_genre)
