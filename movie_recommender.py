@@ -163,7 +163,6 @@ def get_emsemble_cosine_matrix(tokenized_by_bert_df, movie_director_actor_keywor
     cosine_sim_combined = 0.5 * cosine_sim_bert + 0.5 * cosine_sim_director
     return cosine_sim_combined
 
-@st.cache_data
 def improved_recommendations(indices, cosine_combined_array, movie_title, movie_director_actor_keywords_df):
     try:
         # get index of the movie
