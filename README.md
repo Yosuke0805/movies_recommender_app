@@ -1,6 +1,5 @@
 # Summary
-🎥 Application to recommend movies
-Check it out from [here](https://moviesrecommenderapp-by-yosuke.streamlit.app/)
+🎥 [Application to recommend movies](https://moviesrecommenderapp-by-yosuke.streamlit.app/)
 
 # Backgroud
 Since I watch movies a lot, sometimes I run out of movies that I want to watch and looked up for some movies that I like.
