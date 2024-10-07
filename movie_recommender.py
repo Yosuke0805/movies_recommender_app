@@ -53,7 +53,7 @@ def main():
         if chosen_genre:
             # select movies based on genre
             genre_top_df = select_top_movies_by_genre(gen_md_df, chosen_genre)
-            the_number_of_movies = st.number_input(label="The number of movies options", min_value=1, max_value=50, value=20)
+            the_number_of_movies = st.number_input(label="The number of options for movies", min_value=1, max_value=50, value=20)
             top_movies_per_genre_list = genre_top_df['title'][:the_number_of_movies].tolist()
             user_favorite_movie = st.selectbox(label="Select your favorite movie", options=top_movies_per_genre_list)
             if user_favorite_movie:
