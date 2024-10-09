@@ -27,7 +27,7 @@ I am still learning recommendations and did not have user history data, it's not
 4. Combining with ranking base algorithm and Content-Based Filtering
     ![The Dark Knight](images/image-3.png)
     - The resulst shows that more popular movies created by Christopher Nolan
-    - Compared to the result from 3, it recommends higher movies which I think generally people like it. Plus, animated batman movies don't appear but old batman movies are still in the ranking, so a fun of batman might satistify with this result. 
+    - Compared to the result from 3, it recommends higher movies which I think generally people like it. Plus, animated batman movies don't appear but old batman movies are still in the ranking, so those who are fun of batman might satistify with this result. 
 
 # Procedures of developing app
 ## Requirement Design
