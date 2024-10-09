@@ -17,16 +17,17 @@ I am still learning recommendations and did not have user history data, it's not
 0. Preprocessing the data
 1. Creating ranking scores
 2. Content-Based Filtering with using movies descriptions
-    ![The Dark Knight](image.png)
+    ![The Dark Knight](images/image.png)
     - The result shows batman series however it includes many animationed batman movies.
     - They might be recommended if you are a huge fun of animation however it can be assumed that most people who likes "The Dark Knight" likes real movies and movies created by Christopher Nolan 
 3. Content-Based Filtering with using directors&actors
-    ![The Dark Knight](image-1.png)
+    ![The Dark Knight](images/image-1.png)
     - The result shows more movies created by Christopher Nolan.
     - Most people might like this result better than pervious one.
 4. Combining with ranking base algorithm and Content-Based Filtering
-    ![The Dark Knight](image-2.png)
-    -    
+    ![The Dark Knight](images/image-3.png)
+    - The resulst shows that more popular movies created by Christopher Nolan
+    - Compared to the result from 3, it recommends higher movies which I think generally people like it. Plus, animated batman movies don't appear but old batman movies are still in the ranking, so a fun of batman might satistify with this result. 
 
 # Procedures of developing app
 ## Requirement Design
