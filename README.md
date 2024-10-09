@@ -20,7 +20,7 @@ I am still learning recommendations and did not have user history data, it's not
     ![The Dark Knight](images/image.png)
     - The result shows batman series however it includes many animationed batman movies.
     - They might be recommended if you are a huge fun of animation however it can be assumed that most people who likes "The Dark Knight" likes real movies and movies created by Christopher Nolan 
-3. Content-Based Filtering with using directors&actors
+3. Content-Based Filtering with using directors&actors/
 ![The Dark Knight](images/image-1.png)
     - The result shows more movies created by Christopher Nolan.
     - Most people might like this result better than pervious one.
