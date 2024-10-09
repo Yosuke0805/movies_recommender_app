@@ -160,7 +160,7 @@ def get_emsemble_cosine_matrix(tokenized_by_bert_df, movie_director_actor_keywor
     cosine_sim_director = cosine_similarity(count_matrix, count_matrix)
 
     # combine the two similarity matrices which captures overview similarity and director similarity
-    cosine_sim_combined = 0.5 * cosine_sim_bert + 0.5 * cosine_sim_director
+    cosine_sim_combined = 0.1 * cosine_sim_bert + 0.9 * cosine_sim_director
     return cosine_sim_combined
 
 def improved_recommendations(indices, cosine_combined_array, movie_title, movie_director_actor_keywords_df):
