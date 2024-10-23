@@ -16,7 +16,7 @@ I am still learning recommendations and did not have user history data, it's not
 # Procedures for creating recommendation algorithm
 0. Preprocessing the data
 1. Creating ranking scores
-2. Content-based filtering using movie descriptions
+2. Content-based filtering using movie descriptions\
  ![The Dark Knight](images/image.png)
     - The result shows the Batman series however it includes many animated Batman movies.
     - They might be recommended if you are a huge fan of animation however it can be assumed that most people who like "The Dark Knight" like real movies and movies created by Christopher Nolan 
