@@ -17,15 +17,15 @@ I am still learning recommendations and did not have user history data, it's not
 0. Preprocessing the data
 1. Creating ranking scores
 2. Content-based filtering using movie descriptions\
- ![The Dark Knight](images/image.png)
+ ![The Dark Knight](images/image.png)\
     - The result shows the Batman series however it includes many animated Batman movies.
     - They might be recommended if you are a huge fan of animation however it can be assumed that most people who like "The Dark Knight" like real movies and movies created by Christopher Nolan 
-3. Content-Based Filtering with using directors&actors  
-![The Dark Knight](images/image-1.png)
+3. Content-Based Filtering with using directors&actors\ 
+![The Dark Knight](images/image-1.png)\
  - The result shows more movies created by Christopher Nolan.
  - Most people might like this result better than the previous one.
-4. Combining with ranking base algorithm and Content-Based Filtering
- ![The Dark Knight](images/image-3.png)
+4. Combining with ranking base algorithm and Content-Based Filtering\
+ ![The Dark Knight](images/image-3.png)\
     - The result shows that more popular movies created by Christopher Nolan
     - Compared to the result from 3, it recommends higher movies which I think generally people like. Plus, animated Batman movies don't appear but old Batman movies are still in the ranking, so those who are fun of Batman might be satisfied with this result. 
 
