@@ -26,8 +26,8 @@ I am still learning recommendations and did not have user history data, it's not
  - The result shows more movies created by Christopher Nolan.
  - Most people might like this result better than the previous one.
 
-4. Combining with ranking base algorithm and Content-Based Filtering\
- ![The Dark Knight](images/image-3.png)\
+4. Combining with ranking base algorithm and Content-Based Filtering \
+![The Dark Knight](images/image-3.png)\
     - The result shows that more popular movies created by Christopher Nolan
     - Compared to the result from 3, it recommends higher movies which I think generally people like. Plus, animated Batman movies don't appear but old Batman movies are still in the ranking, so those who are fun of Batman might be satisfied with this result. 
 
